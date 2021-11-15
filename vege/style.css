@@ -136,7 +136,7 @@ středně široké obrazovky:
             }
             .container {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 flex-wrap: wrap;
                 padding: 1.25rem;
                 align-content: center;
@@ -177,13 +177,11 @@ středně široké obrazovky:
                 display: flex;
                 flex-direction: row;
                 padding: 1.25rem;
-                align-content: center;
                 width: 33%;
             }
             .small.container {
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
+                flex-direction: column;
                 width: 66%;
                 order: 2;
                 min-height: 200px;
